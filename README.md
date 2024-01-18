@@ -1,2 +1,8 @@
 # Logical-Expression-Checker
 Programa que avalia a veracidade de expressões lógicas e verifica a satisfabilidade. Se a expressão for verdadeira, o programa também fornece uma valoração satisfatória. O programa interpreta expressões lógicas e aplica a precedência de operação.
+
+## Introdução
+Este programa se trata de um trabalho prático desenvolvido nas aulas de Estruturas de Dados, lecionadas pela UFMG. Foi proposto que fosse implementado um avaliador de expressões lógicas - afirma se ela é verdadeira ou falsa -  e um verificador de satisfabilidade - tal qual o anterior, afirma se é verdadeira ou não, porém, se for verdadeira, também mostra uma valoração satisfazível para a expressão diante dos operadores "EXISTE"(∃) e "PARA TODO"(∀). Como solução, para interpretar as expressões lógicas, foram criados métodos para compreender o que cada caractere significa, aplicar a precedência de operação e converter a expressão de infix para postfix. Para tratar a avaliação de expressões lógicas com novos operadores, foi selecionada a estratégia de aproveitar os métodos já criados e utilizar novos métodos e estruturas de dados, como a árvore, para gerar as possibilidades/folhas de uma valoração dada com os novos operadores e testá-las no avaliador de expressões.
+
+## Instruções de Compilação
+Para utilizar este código é necessário que, ao estar na raíz do projeto via terminal, você crie manualmente as pastas ‘obj’ e ‘bin’ e, após isso, seja dado o comando make all, dessa maneira o programa será devidamente compilado. Após isso, você pode fazer seus próprios inputs, contanto que siga as regras informadas na especificação, e analise e adicione testes no mesmo, a fim de compreender, eventualmente, como o programa age em cima de diferentes inputs.
